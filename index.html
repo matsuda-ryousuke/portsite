@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matsuda's Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header" id="navArea">
+      <nav class="header-nav">
+        <div class="inner">
+          <ul class="header-list">
+            <li class="main-list">
+              <a class="main last" href="#home">Home</a>
+            </li>
+            <li class="main-list">
+              <a class="main" href="#about">About</a>
+              <ul class="sub-list">
+                <li class="sub-item sub-about">
+                  <a class="sub" href="#about">Site</a>
+                </li>
+                <li class="sub-item sub-about">
+                  <a class="sub last" href="#aboutme">Me</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-list">
+              <a class="main" href="#myself">Works</a>
+              <ul class="sub-list">
+                <li class="sub-item sub-works">
+                  <a class="sub" href="#myself">Myself</a>
+                </li>
+                <li class="sub-item sub-works">
+                  <a class="sub last" href="#works">Team</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-list">
+              <a class="main last" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="toggle_btn" id="btn13">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="mask"></div>
+    </header>
+
+    <!-- contents -->
+    <main>
+      <section class="mv section" id="home">
+        <h1>Matsuda's Portfolio</h1>
+      </section>
+
+      <!-- about -->
+      <section class="about-section section" id="about">
+        <div>
+          <h2 class="common-secttl about-ttl">About this Site</h2>
+          <p class="about-text">
+            ここは松田のポートフォリオサイトです。<br />
+            これまでに手がけた制作物などを紹介しております。<br />
+            サイトに来てくれたあなたに、私のことを知ってもらえれば幸いです。
+          </p>
+        </div>
+      </section>
+
+      <!-- aboutme -->
+      <section class="aboutme-section section" id="aboutme">
+        <div>
+          <h2 class="common-secttl aboutme-ttl">About Me</h2>
+          <div class="aboutme-content">
+            <div class="aboutme-icon">
+              <img src="./image/_D7A0272.JPG" alt="" />
+            </div>
+            <div class="aboutme-detail">
+              <h3 class="aboutme-name">松田 涼佑 Matsuda Ryosuke</h3>
+              <p class="aboutme-text">
+                京都府出身、大阪府在住。<br />
+                京都大学にて生物学を学んだ後に飲食業の世界へ入り、<br />
+                大阪の某レストランにて、接客を勤めました。<br />
+                退職後は別業界へのキャリアチェンジを目指し、職業訓練に参加。<br />
+                現在は、創造社デザイン専門学校に通いながら、<br />
+                IT知識やプログラミング言語を日夜学習中です。<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- myself -->
+      <section class="section myself-section" id="myself">
+        <div class="myself-div">
+          <h2 class="common-secttl myself-ttl">Works -Myself-</h2>
+          <p>個人での成果物をご紹介します。</p>
+
+          <ul class="myself-list">
+            <li class="js-modal-open" data-id="homepage">
+              <h3 class="myself-name">Matsuda's Portfolio</h3>
+              <img class="myself-icon" src="./image/portfolio.jpg" />
+              <div class="myself-detail">
+                <p class="item-ttl">ポートフォリオサイト</p>
+              </div>
+            </li>
+            <li class="js-modal-open" data-id="passgene">
+              <h3 class="myself-name">パスジェネ</h3>
+              <img
+                class="myself-icon"
+                src="./image/bandicam 2021-08-09 15-08-44-395.jpg"
+              />
+              <div class="myself-detail">
+                <p class="item-ttl">パスワードジェネレータ</p>
+              </div>
+            </li>
+            <li class="js-modal-open" data-id="chat">
+              <h3 class="myself-name">まっちゃんねる</h3>
+              <img
+                class="myself-icon"
+                src="./image/bandicam 2021-08-20 22-59-45-312.jpg"
+              />
+              <div class="myself-detail">
+                <p class="item-ttl">掲示板アプリ</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- works -->
+      <section class="section works-section" id="works">
+        <div class="works-div">
+          <h2 class="common-secttl works-ttl">Works -Team-</h2>
+          <p>チームでの成果物をご紹介します。</p>
+          <ul class="works-list">
+            <li class="js-modal-open" data-id="yumekana">
+              <h3 class="works-name">日報共有アプリ</h3>
+              <img
+                class="works-icon"
+                src="./image/bandicam 2021-09-23 14-51-45-243.jpg"
+              />
+              <div class="works-detail">
+                <p class="item-ttl">日報システム</p>
+              </div>
+            </li>
+            <li class="js-modal-open" data-id="sense">
+              <h3 class="works-name">センスオブセンス</h3>
+              <img
+                class="works-icon"
+                src="./image/bandicam 2021-09-23 15-03-32-531.jpg"
+              />
+              <div class="works-detail">
+                <p class="item-ttl">教育コンテンツ</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact-section section" id="contact">
+        <div>
+          <h2 class="common-secttl contact-ttl">Contact</h2>
+          <p class="contact-text">
+            最後まで御覧いただき、ありがとうございます。<br />もし何かコメントなどございましたら、こちらよりご連絡ください。
+          </p>
+
+          <form id="contact-form" class="contact-form">
+            <div class="form-name">
+              <div class="form-group">
+                <label>【すべての項目は必須です】</label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="form-control require"
+                  placeholder="お名前"
+                  name="name"
+                  id="name"
+                  required
+                />
+                <span
+                  class="glyphicon form-control-feedback"
+                  aria-hidden="true"
+                ></span>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="form-email">
+              <div class="form-group"></div>
+              <div>
+                <input
+                  type="email"
+                  class="form-control require"
+                  placeholder="メールアドレス"
+                  name="email"
+                  id="email"
+                  required
+                />
+                <span
+                  class="glyphicon form-control-feedback"
+                  aria-hidden="true"
+                ></span>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="form-main">
+              <div class="form-group">
+                <label></label>
+              </div>
+              <div>
+                <textarea
+                  placeholder="お問い合わせ内容"
+                  rows="10"
+                  class="form-control require"
+                  name="main"
+                  id="main"
+                  required
+                ></textarea>
+                <span
+                  class="glyphicon form-control-feedback"
+                  aria-hidden="true"
+                ></span>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+
+            <div class="form-window modal-window" data-id="modal-form">
+              <p class="modal-secttl">フォーム送信</p>
+              <div>
+                <label>お名前</label>
+              </div>
+              <div>
+                <p class="modal-form-item" id="form_name"></p>
+              </div>
+              <div>
+                <label>メールアドレス</label>
+              </div>
+              <div>
+                <p class="modal-form-item" id="form_email"></p>
+              </div>
+              <div>
+                <label>お問い合わせ内容</label>
+              </div>
+              <div>
+                <p class="modal-form-item" id="form_main"></p>
+              </div>
+              <button
+                type="button"
+                class="js-modal-close-form css-modal-close-form"
+                id="close"
+              >
+                Close
+              </button>
+              <button type="button" class="css-modal-open-form" id="submit-btn">
+                送信
+              </button>
+            </div>
+          </form>
+          <button
+            type="button"
+            class="
+              send
+              js-modal-open-form
+              css-modal-open-form
+              btn btn-warning btn-lg btn-block
+            "
+            id="form_btn"
+            data-id="form"
+          >
+            送信
+          </button>
+        </div>
+      </section>
+
+      <!-- トップへ戻るボタン -->
+      <div id="page-top">
+        <a href="#"
+          ><p class="top"><i class="fas fa-chevron-up"></i></p
+        ></a>
+      </div>
+    </main>
+
+    <footer>
+      <section class="footer-section">
+        <p>© 2021 RyosukeMatsuda.</p>
+      </section>
+    </footer>
+
+    <!-- モーダル -->
+    <section class="modal-section">
+      <div id="overlay" class="overlay"></div>
+      <div class="modal-window" data-id="modal-homepage">
+        <h2 class="modal-secttl">Matsuda's Portfolio</h2>
+        <p class="modal-text">
+          ポートフォリオサイトです。自慢ポイントは、AWSにサーバーレス構成で載せていること。
+          EC2は使わずにS3のwebホスティング機能で公開し、お問い合わせフォームもAPI
+          Gateway + lambda + SES で実現しています。
+          フロント言語にはあまり慣れていないのですが、楽しく制作できました。
+        </p>
+        <h2 class="modal-secttl">使用言語、開発環境等</h2>
+        <p class="modal-text">
+          HTML, CSS, Sass, Javascript, JQuery, AWS(S3, APIGateway, lambda, SES)
+        </p>
+        <h2 class="modal-secttl">制作期間</h2>
+        <p class="modal-text">約2週間</p>
+        <div class="modal-icon-div">
+          <a href="" class="modal-icon-a">
+            <img class="modal-icon" src="./image/portfolio.jpg" />
+          </a>
+        </div>
+        <div class="modal-close">
+          <button class="js-modal-close button-close">Close</button>
+        </div>
+      </div>
+      <div class="modal-window" data-id="modal-passgene">
+        <h2 class="modal-secttl">
+          <a
+            href="http://matsuda-portfolio.s3-website.ap-northeast-3.amazonaws.com/pass_gene/"
+            >パスジェネ</a
+          >
+        </h2>
+        <p class="modal-text">
+          パスワード自動生成アプリです。<br />
+          生成だけでなく、データベースへの保存機能や、クリップボードへのコピー機能なども付けました。<br />
+          保存時にはパスワードをアプリ側(フロント)で暗号化していたり、バック側の処理はajax経由で、<br />
+          APIGateway + Lambda + DynamoDB
+          といったサーバーレス構成となっているところがアピールポイントです。
+        </p>
+        <h2 class="modal-secttl">使用言語、開発環境等</h2>
+        <p class="modal-text">
+          HTML, CSS, Javascript, AWS(S3/APIGateway/Lambda/DynamoDB),
+          VirtualBox(Ubuntu)
+        </p>
+        <h2 class="modal-secttl">制作期間</h2>
+        <p class="modal-text">約1ヶ月半ほど</p>
+        <p class="modal-text">
+          <a
+            href="http://matsuda-portfolio.s3-website.ap-northeast-3.amazonaws.com/pass_gene/"
+          >
+            デモサイトはこちら</a
+          >
+        </p>
+        <p class="modal-text">
+          <a href="https://github.com/matsuda-ryousuke/pass_gene">github</a>
+        </p>
+
+        <p class="modal-text">
+          ※テスト用のアカウントとして、111@example.com / test
+          でログインが可能です。
+        </p>
+        <div class="modal-icon-div">
+          <a
+            href="http://matsuda-portfolio.s3-website.ap-northeast-3.amazonaws.com/pass_gene"
+            class="modal-icon-a"
+          >
+            <img class="modal-icon" src="./image/passgene.jpg" />
+          </a>
+        </div>
+        <p class="modal-text">※画像は開発時のものです。</p>
+
+        <div class="modal-close">
+          <button class="js-modal-close button-close">Close</button>
+        </div>
+      </div>
+
+      <div class="modal-window" data-id="modal-chat">
+        <h2 class="modal-secttl">
+          <a href="http://www.matsuda-portfolio.com">まっちゃんねる</a>
+        </h2>
+        <p class="modal-text">
+          掲示板アプリです。生PHPで作成しています。<br />
+          ログイン機能がありますが、ログインせずにコメントの書き込みが可能です。<br />
+          ログインすることで、スレッドの作成、スレッドのお気に入りなどの機能が利用できます。
+        </p>
+        <h2 class="modal-secttl">使用言語、開発環境等</h2>
+        <p class="modal-text">
+          HTML, SCSS, Javascript, JQuery, PHP, AWS(Lightsail),
+          VirtualBox(Ubuntu), xampp
+        </p>
+        <h2 class="modal-secttl">制作期間</h2>
+        <p class="modal-text">約2週間ほど</p>
+
+        <p class="modal-text">
+          <a href="http://www.matsuda-portfolio.com"> デモサイトはこちら</a>
+        </p>
+        <p class="modal-text">
+          <a href="https://github.com/matsuda-ryousuke/chatPHP">github</a>
+        </p>
+
+        <p class="modal-text">
+          ※テスト用のアカウントとして、111@example.com / test
+          でログインが可能です。
+        </p>
+        <div class="modal-icon-div">
+          <a href="http://www.matsuda-portfolio.com" class="modal-icon-a">
+            <img
+              class="modal-icon"
+              src="./image/bandicam 2021-08-20 22-59-45-312.jpg"
+            />
+          </a>
+        </div>
+        <div class="modal-close">
+          <button class="js-modal-close button-close">Close</button>
+        </div>
+      </div>
+
+      <div class="modal-window" data-id="modal-yumekana">
+        <h2 class="modal-secttl">
+          <a href="http://www.sozosha-test.tk/">日報共有アプリ</a>
+        </h2>
+        <p class="modal-text">
+          学校の企業課題での制作物です。松田はプログラム要因として参加し、<br />
+          企業の日報を共有できるWebアプリケーションをLaravelにて制作しました。
+        </p>
+        <h2 class="modal-secttl">使用言語、開発環境等</h2>
+        <p class="modal-text">HTML, CSS, Javascript, Ajax, Laravel</p>
+        <h2 class="modal-secttl">制作期間</h2>
+        <p class="modal-text">約2ヶ月</p>
+        <p class="modal-text">
+          ※テスト用のアカウントとして、111@example.com / test
+          でログインが可能です。
+        </p>
+        <div class="modal-icon-div">
+          <a href="http://www.sozosha-test.tk/" class="modal-icon-a">
+            <img
+              class="modal-icon"
+              src="./image/bandicam 2021-09-23 14-52-37-743.jpg"
+          /></a>
+        </div>
+        <div class="modal-close">
+          <button class="js-modal-close button-close">Close</button>
+        </div>
+      </div>
+      <div class="modal-window" data-id="modal-sense">
+        <h2 class="modal-secttl">センスオブセンス</h2>
+        <p class="modal-text">
+          MBSD情報セキュリティコンテストに、4人チームのリーダーとして参加した時の作品です。<br />
+          情報セキュリティに関する教育コンテンツを作成せよ、とのお題に対し、作品のコンセプトは「すべての人をセキュリティ人材へ」。<br />
+          ボイスロイドを使用した動画講座による学習と、ノベルゲーム形式での演習からなる学習コンテンツを制作しました。<br />
+          結果は全国7位でしたが、作品のみの点数なら全国2位。<br />
+          松田の担当作業は、プロフェクトのマネジメント、ノベルゲームの文章執筆、ボイスロイドの調声、動画の制作、他諸々。<br />
+        </p>
+        <h2 class="modal-secttl">使用言語、開発環境等</h2>
+        <p class="modal-text">
+          HTML, CSS, Sass, Javascript, irohaboard, AWS(EC2), Voiceroid2, aviUtl
+        </p>
+        <h2 class="modal-secttl">制作期間</h2>
+        <p class="modal-text">約2ヶ月</p>
+
+        <p class="modal-text">
+          ※テスト用に、動画講座の一部を載せております。<br />
+          音が出ますのでご注意ください。
+        </p>
+        <div class="modal-video-div">
+          <iframe class="modal-video" src="./image/1-1.mp4">
+            <param name="autoStart" value="False"
+          /></iframe>
+        </div>
+        <div class="modal-close">
+          <button class="js-modal-close button-close">Close</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="loading">
+      <p><span class="wipein show">THIS IS MY PORTFOLIO.</span></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/query.js"></script>
+  </body>
+</html>
